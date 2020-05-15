@@ -14,7 +14,7 @@ logging.basicConfig(
 # 現在のロギングの情報を取得(引数はファイル名)
 logger = logging.getLogger(__name__)
 
-logger.info('merge.py起動')
+logger.info('combo.py起動')
 
 def check_setting_file(file_name):
     """
